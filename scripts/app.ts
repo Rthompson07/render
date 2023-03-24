@@ -398,7 +398,7 @@
 
             // swap out the login link for logout
             $("#login").html(
-                `<a id="logout" class="nav-link" href="#"><i class="fas fa-sign-out-alt"></i> Logout</a>`
+                `<a id="logout" class="nav-link" data="#"><i class="fas fa-sign-out-alt"></i> Logout</a>`
             );
 
 
@@ -455,7 +455,7 @@
                     }
                 }
 
-                // if username and password matches - success.. the perform the login sequence
+                // if username and password matches - success. to perform the login sequence
                 if(success)
                 {
                     // add user to session storage
